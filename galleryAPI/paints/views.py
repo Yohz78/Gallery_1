@@ -6,7 +6,7 @@ from rest_framework.response import Response
 from rest_framework import status
 
 
-class PostView(APIView):
+class PaintView(APIView):
     parser_classes = (MultiPartParser, FormParser)
 
     def get(self, request, *args, **kwargs):
